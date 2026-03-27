@@ -16,12 +16,12 @@ describe("Footer", () => {
 
   it("renders the email address", () => {
     render(<Footer />);
-    expect(screen.getByText("hello@toni.dev")).toBeInTheDocument();
+    expect(screen.getByText("daviayllantoni@gmail.com")).toBeInTheDocument();
   });
 
   it("email is a mailto link", () => {
     render(<Footer />);
     const emailLink = screen.getByRole("link");
-    expect(emailLink).toHaveAttribute("href", "mailto:hello@toni.dev");
+    expect(emailLink).toHaveAttribute("href", "mailto:daviayllantoni@gmail.com");
   });
 });

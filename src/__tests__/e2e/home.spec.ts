@@ -30,7 +30,7 @@ test.describe("Homepage", () => {
   test("shows the footer", async ({ page }) => {
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
     await expect(page.getByRole("contentinfo")).toBeVisible();
-    await expect(page.getByRole("link", { name: /hello@toni.dev/i })).toBeVisible();
+    await expect(page.getByRole("link", { name: /daviayllantoni@gmail.com/i })).toBeVisible();
   });
 
   test("process section is present", async ({ page }) => {

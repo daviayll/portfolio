@@ -6,10 +6,10 @@ export function Footer() {
           &copy; {new Date().getFullYear()} Toni
         </span>
         <a
-          href="mailto:hello@toni.dev"
+          href="mailto:daviayllantoni@gmail.com"
           className="font-mono text-xs text-text-muted transition-colors hover:text-text"
         >
-          hello@toni.dev
+          daviayllantoni@gmail.com
         </a>
       </div>
     </footer>

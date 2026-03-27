@@ -17,7 +17,7 @@ export function CTA() {
             and some good questions.
           </Text>
           <div className="mt-8">
-            <Button href="mailto:hello@toni.dev">
+            <Button href="https://calendly.com/daviayllantoni/30min">
               Book a conversation
             </Button>
           </div>
