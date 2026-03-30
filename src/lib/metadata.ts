@@ -33,15 +33,16 @@ export function jsonLd() {
     "@graph": [
       {
         "@type": "Person",
-        name: "Toni",
+        name: "Antoni Davia",
         url: SITE.url,
-        jobTitle: "Problem Diagnostician",
+        jobTitle: "E-Commerce Automation Specialist",
         description: SITE.description,
         knowsAbout: [
-          "AI Integration",
+          "E-Commerce Automation",
+          "AI for Online Retail",
           "Business Process Automation",
-          "Web Development",
-          "UX Strategy",
+          "Inventory Management Systems",
+          "Order Workflow Optimization",
         ],
       },
       {
@@ -49,7 +50,7 @@ export function jsonLd() {
         name: SITE.title,
         url: SITE.url,
         description: SITE.description,
-        serviceType: "Technology Consulting",
+        serviceType: "E-Commerce Automation Consulting",
         areaServed: "Worldwide",
       },
     ],

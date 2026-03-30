@@ -29,7 +29,7 @@ export function Header() {
           href="/"
           className="font-mono text-sm tracking-wide uppercase text-text"
         >
-          Toni
+          Antoni Davia
         </Link>
         <Link
           href="/#contact"

@@ -3,26 +3,20 @@ import type { ProcessStep } from "@/types";
 export const processSteps: ProcessStep[] = [
   {
     number: "01",
-    title: "You come with something",
+    title: "Discovery — we find where your business is bleeding time",
     description:
-      "A pain, an idea, a vague feeling that things could be better. You don't need a spec — just something that's been on your mind.",
+      "I dig into your operations: the manual steps, the tools that don't talk to each other, the bottlenecks your team works around every day. I ask the questions that uncover the real cost — not the symptom you see, but the inefficiency hiding underneath.",
   },
   {
     number: "02",
-    title: "We find the real thing",
+    title: "Custom Build — I build the automation that stops the bleeding",
     description:
-      "Through conversation, we get past the surface. The thing you came with is rarely the thing that needs solving. Discovery questions get us to the root, not the symptom.",
+      "No templates, no one-size-fits-all. I design and build a system around your business, your products, your workflows. You see it working before you commit. It's built to scale with you, not lock you in.",
   },
   {
     number: "03",
-    title: "I show you what's possible",
+    title: "Training — your team runs it, no developer needed",
     description:
-      "Scope you hadn't considered, connections you hadn't made. What started as a form might become a system. What started as a dashboard might become a workflow.",
-  },
-  {
-    number: "04",
-    title: "We build what actually moves the needle",
-    description:
-      "Execution on the real problem, not the original ask. The result is always more complete — because we took the time to understand what was actually needed.",
+      "I hand your team the keys and make sure they can drive. Plain-English walkthroughs, clear documentation, and my number if something feels off. You own it completely — no monthly retainer required to keep the lights on.",
   },
 ];

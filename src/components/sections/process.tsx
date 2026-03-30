@@ -9,9 +9,9 @@ export function Process() {
     <Section id="process">
       <Container>
         <FadeIn>
-          <Label as="p">How I work</Label>
+          <Label as="p">The 3-Step Bridge</Label>
           <Heading level="h2" className="mt-4 max-w-2xl">
-            A process built on questions, not assumptions.
+            From chaos to control. Three steps, no mystery.
           </Heading>
         </FadeIn>
 

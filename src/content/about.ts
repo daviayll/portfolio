@@ -1,7 +1,9 @@
 export const about = {
   label: "About",
-  heading: "The gap between what you ask for and what you actually need",
-  body: `I've spent years inside enterprise systems — as a functional analyst and developer working on real production environments for large companies. Now I work independently with businesses of all sizes to figure out what they actually need — and build it.
+  heading: "I've been inside e-commerce at scale. Now I bring that thinking to yours.",
+  body: `I spent years inside one of Europe's largest fashion e-commerce operations — the kind that ships millions of orders and survives Black Friday without breaking a sweat. I helped build and maintain the systems that keep that machine running.
 
-Most projects I've worked on started with one ask and ended with something much more complete. That gap is where I work.`,
+Now I work with e-commerce businesses that are growing faster than their operations can handle. The ones where the team is talented but stretched thin, the tools don't talk to each other, and everyone keeps hearing about AI without anyone explaining what it actually means for their business.
+
+That's the gap I fill. Enterprise-level thinking, tailored to your operation, built to scale with you.`,
 };

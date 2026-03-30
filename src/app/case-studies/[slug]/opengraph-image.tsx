@@ -53,7 +53,7 @@ export default async function Image({ params }: Props) {
               textTransform: "uppercase",
             }}
           >
-            Toni
+            Antoni Davia
           </span>
           <span
             style={{

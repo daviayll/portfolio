@@ -32,7 +32,7 @@ export default function Image() {
               textTransform: "uppercase",
             }}
           >
-            Toni
+            Antoni Davia
           </span>
         </div>
 
@@ -46,7 +46,7 @@ export default function Image() {
               lineHeight: 1.1,
             }}
           >
-            Problem Diagnostician.
+            E-Commerce Automation.
           </div>
           <div
             style={{

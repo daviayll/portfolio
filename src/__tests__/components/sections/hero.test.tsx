@@ -37,28 +37,26 @@ describe("Hero", () => {
   it("renders the main headline", () => {
     render(<Hero />);
     expect(
-      screen.getByText(
-        /Most AI projects fail because no one diagnosed the real problem/i
-      )
+      screen.getByText(/Your e-commerce is growing/i)
     ).toBeInTheDocument();
   });
 
   it("renders the description text", () => {
     render(<Hero />);
     expect(
-      screen.getByText(/I help business owners figure out/i)
+      screen.getByText(/I help e-commerce businesses replace the chaos/i)
     ).toBeInTheDocument();
   });
 
   it("renders the label", () => {
     render(<Hero />);
-    expect(screen.getByText(/Portfolio \/ Toni/i)).toBeInTheDocument();
+    expect(screen.getByText(/E-commerce automation/i)).toBeInTheDocument();
   });
 
   it("renders the CTA link", () => {
     render(<Hero />);
     const cta = screen.getByRole("link");
     expect(cta).toHaveAttribute("href", "/#process");
-    expect(cta.textContent).toContain("See how I work");
+    expect(cta.textContent).toContain("See how it works");
   });
 });

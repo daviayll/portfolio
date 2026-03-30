@@ -11,10 +11,10 @@ export function CaseStudies() {
       <Container>
         <FadeIn>
           <Label as="p" className="text-text-light/50">
-            Selected work
+            Real results
           </Label>
           <Heading level="h2" className="mt-4 text-text-light">
-            Stories, not specs.
+            Every business has a different mess. Same approach, different fix.
           </Heading>
         </FadeIn>
 

@@ -10,15 +10,16 @@ export function CTA() {
       <Container className="flex flex-col items-center text-center">
         <FadeIn>
           <Heading level="h2" className="max-w-2xl">
-            Let&apos;s figure out what you actually need.
+            Let&apos;s figure out where your operations are holding you back.
           </Heading>
           <Text variant="muted" className="mt-4 max-w-md">
-            A 30-minute conversation. No pitch, no pressure. Just your situation
-            and some good questions.
+            30 minutes. No jargon, no pitch. Just your business, your
+            bottlenecks, and some honest answers about what AI can — and
+            can&apos;t — do for your operation.
           </Text>
           <div className="mt-8">
             <Button href="https://calendly.com/daviayllantoni/30min">
-              Book a conversation
+              Book a free call
             </Button>
           </div>
         </FadeIn>

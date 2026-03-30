@@ -3,45 +3,45 @@ import type { CaseStudyData } from "@/components/sections/case-study-card";
 export const caseStudies: CaseStudyData[] = [
   {
     number: "01",
-    title: "They asked for a form. I built them a system.",
+    title: "They wanted a product form. I built them an order machine.",
     narrative: [
       {
         label: "What they came saying",
-        text: "\"We need a form where clients fill in their details, and a dashboard so we can see everything.\" A neighborhood services company in Barcelona, growing fast, drowning in manual work.",
+        text: "\"We need a form where customers can customize their orders, and a dashboard so we can track everything.\" A growing e-commerce brand, processing hundreds of orders a week, still managing everything between WhatsApp, spreadsheets, and email.",
       },
       {
         label: "What I discovered",
-        text: "The form wasn't the problem. They were copying data between WhatsApp, spreadsheets, and email. Every new client meant five manual steps across three tools. The real problem was the workflow — the form was just the visible symptom.",
+        text: "The form wasn't the problem. Every new order meant five manual steps across three tools — copy the address here, update the stock there, send the confirmation by hand. The real cost wasn't the form. It was the operational drag that was capping their growth.",
       },
       {
         label: "What I built",
-        text: "A complete client management system: intake form with validation, automated notifications, service tracking, internal dashboard with filters and status management. What started as \"a form and a dashboard\" became the operational backbone of the business.",
+        text: "A complete order management system: customizable order forms, automated confirmations, real-time inventory sync, and a dashboard showing every order's status at a glance. What started as \"a form and a dashboard\" became the operational backbone of the business.",
       },
       {
         label: "What it unlocked",
-        text: "They went from spending hours on admin to minutes. New team members could onboard without shadowing anyone for a week. The owner could finally see the state of every client at a glance — and focus on growing instead of managing.",
+        text: "Admin hours collapsed. New team members onboarded in days, not weeks. And the founder finally had the headspace to focus on scaling — not firefighting.",
       },
     ],
   },
   {
     number: "02",
-    title: "A restaurant that wanted bookings — and got operations.",
+    title: "They wanted to sync their inventory. They got a business that runs itself.",
     narrative: [
       {
         label: "What they came saying",
-        text: "\"We need an online booking system.\" A small restaurant getting more calls than they could handle during peak hours.",
+        text: "\"Our online store and physical shop never show the same stock.\" A fashion retailer selling across their website and a flagship store, constantly overselling products that were already gone.",
       },
       {
         label: "What I discovered",
-        text: "Bookings were just the entry point. They were also losing track of cancellations, double-booking tables, and had no way to communicate changes to the kitchen. The phone wasn't the bottleneck — the lack of a single source of truth was.",
+        text: "Inventory was just the surface. They were losing track of returns, had no visibility into which channel was actually profitable, and someone spent every Sunday night manually reconciling numbers. The stockouts weren't the problem — the lack of a single source of truth was.",
       },
       {
         label: "What I built",
-        text: "An automated reservation flow with real-time availability, confirmation messages, cancellation handling, and an internal view that synced front-of-house with the kitchen. Simple on the surface, connected underneath.",
+        text: "An automated inventory sync between their online store and POS, a returns workflow that updated stock in real time, and a simple dashboard showing live sales and margins per channel. Simple on the surface, connected underneath.",
       },
       {
         label: "What it unlocked",
-        text: "Fewer missed reservations, fewer no-shows, and a team that stopped arguing about who said what to which customer. The phone still rings — but now it's for questions, not logistics.",
+        text: "No more overselling. No more weekend reconciliation shifts. And for the first time, they could see that their online channel had 3x the margin of in-store — a data point that reshaped their entire growth strategy.",
       },
     ],
   },

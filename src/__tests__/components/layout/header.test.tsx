@@ -21,7 +21,7 @@ vi.mock("next/link", () => ({
 describe("Header", () => {
   it("renders the site name", () => {
     render(<Header />);
-    expect(screen.getByText("Toni")).toBeInTheDocument();
+    expect(screen.getByText("Antoni Davia")).toBeInTheDocument();
   });
 
   it("renders the CTA link", () => {

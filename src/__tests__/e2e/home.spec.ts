@@ -6,24 +6,24 @@ test.describe("Homepage", () => {
   });
 
   test("renders the page title in document head", async ({ page }) => {
-    await expect(page).toHaveTitle(/Toni/);
+    await expect(page).toHaveTitle(/Antoni Davia/);
   });
 
   test("shows the hero headline", async ({ page }) => {
     await expect(
-      page.getByText(/Most AI projects fail/i)
+      page.getByText(/Your e-commerce is growing/i)
     ).toBeVisible();
   });
 
   test("shows the hero CTA link", async ({ page }) => {
-    const cta = page.getByRole("link", { name: /See how I work/i });
+    const cta = page.getByRole("link", { name: /See how it works/i });
     await expect(cta).toBeVisible();
     await expect(cta).toHaveAttribute("href", "/#process");
   });
 
   test("shows the header navigation", async ({ page }) => {
     await expect(page.getByRole("banner")).toBeVisible();
-    await expect(page.getByRole("link", { name: /Toni/i }).first()).toBeVisible();
+    await expect(page.getByRole("link", { name: /Antoni Davia/i }).first()).toBeVisible();
     await expect(page.getByRole("link", { name: /Let's talk/i })).toBeVisible();
   });
 
@@ -49,7 +49,7 @@ test.describe("Homepage", () => {
 test.describe("Navigation", () => {
   test("header logo links to homepage", async ({ page }) => {
     await page.goto("/");
-    const logo = page.getByRole("link", { name: /^Toni$/i });
+    const logo = page.getByRole("link", { name: /Antoni Davia/i });
     await expect(logo).toHaveAttribute("href", "/");
   });
 });
