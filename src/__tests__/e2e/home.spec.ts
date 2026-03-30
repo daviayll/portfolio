@@ -6,7 +6,7 @@ test.describe("Homepage", () => {
   });
 
   test("renders the page title in document head", async ({ page }) => {
-    await expect(page).toHaveTitle(/Antoni Davia/);
+    await expect(page).toHaveTitle(/Toni/);
   });
 
   test("shows the hero headline", async ({ page }) => {

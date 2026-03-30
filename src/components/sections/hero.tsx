@@ -18,9 +18,9 @@ export function Hero() {
         </FadeIn>
         <FadeIn delay={0.2}>
           <Text variant="muted" className="mt-6 max-w-xl">
-            I help e-commerce businesses replace the chaos with AI automation —
-            built by someone who&apos;s done it inside one of Europe&apos;s
-            largest fashion retailers.
+            I help e-commerce brands replace the chaos with AI automation —
+            built by someone who&apos;s spent years inside one of Europe&apos;s
+            largest online operations.
           </Text>
         </FadeIn>
         <FadeIn delay={0.3}>
