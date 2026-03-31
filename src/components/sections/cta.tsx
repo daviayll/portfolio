@@ -10,12 +10,11 @@ export function CTA() {
       <Container className="flex flex-col items-center text-center">
         <FadeIn>
           <Heading level="h2" className="max-w-2xl">
-            Let&apos;s figure out where your operations are holding you back.
+            Let&apos;s find where your operations are holding you back.
           </Heading>
-          <Text variant="muted" className="mt-4 max-w-md">
-            30 minutes. No jargon, no pitch. Just your business, your
-            bottlenecks, and some honest answers about what AI can — and
-            can&apos;t — do for your operation.
+          <Text variant="muted" className="mx-auto mt-4 max-w-md">
+            30 minutes. No pitch. Your business, your bottlenecks, and honest
+            answers about what automation can and can&apos;t do for you.
           </Text>
           <div className="mt-8">
             <Button href="https://calendly.com/daviayllantoni/30min">

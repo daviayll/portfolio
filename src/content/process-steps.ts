@@ -3,20 +3,20 @@ import type { ProcessStep } from "@/types";
 export const processSteps: ProcessStep[] = [
   {
     number: "01",
-    title: "Discovery — we find where your business is bleeding time",
+    title: "Discovery — we find where your business is losing time",
     description:
-      "I dig into your operations: the manual steps, the tools that don't talk to each other, the bottlenecks your team works around every day. I ask the questions that uncover the real cost — not the symptom you see, but the inefficiency hiding underneath.",
+      "We look at your operations end to end. The manual steps, the tools that don't talk to each other, the workarounds your team has gotten used to. The goal is to find the real cost — not the symptom, but what's actually slowing you down.",
   },
   {
     number: "02",
-    title: "Custom Build — I build the automation that stops the bleeding",
+    title: "Custom Build — we build the system that fixes it",
     description:
-      "No templates, no one-size-fits-all. I design and build a system around your business, your products, your workflows. You see it working before you commit. It's built to scale with you, not lock you in.",
+      "No templates. We design and build around your business, your products, your workflows. You see it working before you commit. It scales with you, it doesn't lock you in.",
   },
   {
     number: "03",
-    title: "Training — your team runs it, no developer needed",
+    title: "Handoff — your team runs it, no developer needed",
     description:
-      "I hand your team the keys and make sure they can drive. Plain-English walkthroughs, clear documentation, and my number if something feels off. You own it completely — no monthly retainer required to keep the lights on.",
+      "We hand your team the keys and make sure they can drive. Clear walkthroughs, straightforward documentation, and our number if something feels off. You own it — no retainer to keep it running.",
   },
 ];

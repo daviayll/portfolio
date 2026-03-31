@@ -3,23 +3,23 @@ import type { CaseStudyData } from "@/components/sections/case-study-card";
 export const caseStudies: CaseStudyData[] = [
   {
     number: "01",
-    title: "They wanted a product form. I built them an order machine.",
+    title: "They asked for a form. We built them a system.",
     narrative: [
       {
-        label: "What they came saying",
-        text: "\"We need a form where customers can customize their orders, and a dashboard so we can track everything.\" A growing e-commerce brand, processing hundreds of orders a week, still managing everything between WhatsApp, spreadsheets, and email.",
+        label: "What they asked for",
+        text: "\"We need a form where clients fill in their details, and a dashboard so we can see everything.\" A services company in Barcelona, growing fast, drowning in manual work.",
       },
       {
-        label: "What I discovered",
-        text: "The form wasn't the problem. Every new order meant five manual steps across three tools — copy the address here, update the stock there, send the confirmation by hand. The real cost wasn't the form. It was the operational drag that was capping their growth.",
+        label: "What we found",
+        text: "The form wasn't the problem. They were copying data between WhatsApp, spreadsheets, and email. Every new client meant five manual steps across three tools. The real bottleneck was the workflow — the form was just the visible part.",
       },
       {
-        label: "What I built",
-        text: "A complete order management system: customizable order forms, automated confirmations, real-time inventory sync, and a dashboard showing every order's status at a glance. What started as \"a form and a dashboard\" became the operational backbone of the business.",
+        label: "What we built",
+        text: "A complete client management system. Intake form with validation, automated notifications, service tracking, and an internal dashboard with filters and status management. What started as \"a form and a dashboard\" turned into the operational core of the business.",
       },
       {
-        label: "What it unlocked",
-        text: "Admin hours collapsed. New team members onboarded in days, not weeks. And the founder finally had the headspace to focus on scaling — not firefighting.",
+        label: "What changed",
+        text: "Admin went from hours to minutes. New hires stopped needing a week of shadowing to get up to speed. The owner could finally see every client at a glance and spend time growing instead of managing.",
       },
     ],
   },
@@ -28,20 +28,20 @@ export const caseStudies: CaseStudyData[] = [
     title: "They wanted to sync their inventory. They got a business that runs itself.",
     narrative: [
       {
-        label: "What they came saying",
+        label: "What they asked for",
         text: "\"Our online store and physical shop never show the same stock.\" A fashion retailer selling across their website and a flagship store, constantly overselling products that were already gone.",
       },
       {
-        label: "What I discovered",
-        text: "Inventory was just the surface. They were losing track of returns, had no visibility into which channel was actually profitable, and someone spent every Sunday night manually reconciling numbers. The stockouts weren't the problem — the lack of a single source of truth was.",
+        label: "What we found",
+        text: "Inventory was the surface. Returns were slipping through the cracks, nobody could tell which channel was actually profitable, and someone spent every Sunday night reconciling numbers by hand. The stockouts weren't the core issue — having no single source of truth was.",
       },
       {
-        label: "What I built",
-        text: "An automated inventory sync between their online store and POS, a returns workflow that updated stock in real time, and a simple dashboard showing live sales and margins per channel. Simple on the surface, connected underneath.",
+        label: "What we built",
+        text: "Automated inventory sync between their online store and POS. A returns workflow that updates stock in real time. A dashboard showing live sales and margins per channel. Simple on the surface, connected underneath.",
       },
       {
-        label: "What it unlocked",
-        text: "No more overselling. No more weekend reconciliation shifts. And for the first time, they could see that their online channel had 3x the margin of in-store — a data point that reshaped their entire growth strategy.",
+        label: "What changed",
+        text: "No more overselling. No more Sunday reconciliation. And for the first time, they could see their online channel had 3x the margin of in-store — which changed how they thought about growth entirely.",
       },
     ],
   },

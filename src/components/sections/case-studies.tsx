@@ -14,7 +14,7 @@ export function CaseStudies() {
             Real results
           </Label>
           <Heading level="h2" className="mt-4 text-text-light">
-            Every business has a different mess. Same approach, different fix.
+            Different problems, same approach.
           </Heading>
         </FadeIn>
 

@@ -1,9 +1,9 @@
 export const about = {
   label: "About",
-  heading: "I've been inside e-commerce at scale. Now I bring that thinking to yours.",
-  body: `I spent years inside one of Europe's largest fashion e-commerce operations — the kind that ships millions of orders and survives Black Friday without breaking a sweat. I know that world from the inside: how it's built, where it strains, and what it actually takes to keep things running at scale.
+  heading: "We've seen e-commerce at scale. Now we bring that to yours.",
+  body: `Years inside one of Europe's largest fashion retailers — the kind that ships millions of orders and doesn't flinch on Black Friday. That's where we come from.
 
-I help e-commerce businesses replace the operations chaos with AI — someone who's been inside one of Europe's largest fashion retailers.
+Now we work with e-commerce brands that are growing faster than their operations can keep up. The team is good but stretched. The tools don't connect. Everyone talks about AI but nobody's explained what it actually means for the business.
 
-That's the gap I fill. Enterprise-level thinking, tailored to your operation, built to scale with you.`,
+That's the gap. Enterprise-grade thinking, built for your operation, designed to scale with you.`,
 };
