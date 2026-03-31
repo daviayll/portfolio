@@ -25,23 +25,23 @@ export const caseStudies: CaseStudyData[] = [
   },
   {
     number: "02",
-    title: "They wanted to sync their inventory. They got a business that runs itself.",
+    title: "They wanted to search less. They ended up closing more.",
     narrative: [
       {
         label: "What they asked for",
-        text: "\"Our online store and physical shop never show the same stock.\" A fashion retailer selling across their website and a flagship store, constantly overselling products that were already gone.",
+        text: "\"We spend too much time looking for potential clients online. We need a way to do it faster.\" A service business that relied on manual research to fill their pipeline — good at closing, but losing hours before the conversation even started.",
       },
       {
         label: "What we found",
-        text: "Inventory was the surface. Returns were slipping through the cracks, nobody could tell which channel was actually profitable, and someone spent every Sunday night reconciling numbers by hand. The stockouts weren't the core issue — having no single source of truth was.",
+        text: "The searching was only part of it. Once they found someone, they had to check if they were the right fit, gather their contact details, and add them to their list by hand. Each lead took fifteen minutes before anyone had picked up the phone. The bottleneck wasn't effort — it was repetition.",
       },
       {
         label: "What we built",
-        text: "Automated inventory sync between their online store and POS. A returns workflow that updates stock in real time. A dashboard showing live sales and margins per channel. Simple on the surface, connected underneath.",
+        text: "An automated flow that finds and qualifies leads matching their target profile, then loads them directly into their pipeline, ready to contact. What used to take hours of manual research now runs on its own, on a schedule.",
       },
       {
         label: "What changed",
-        text: "No more overselling. No more Sunday reconciliation. And for the first time, they could see their online channel had 3x the margin of in-store — which changed how they thought about growth entirely.",
+        text: "The team stopped spending mornings on research and started spending them on calls. The pipeline stayed full without anyone managing it. And they finally had data on what types of leads actually converted — which changed how they defined their target in the first place.",
       },
     ],
   },

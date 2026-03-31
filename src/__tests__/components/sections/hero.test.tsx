@@ -44,7 +44,7 @@ describe("Hero", () => {
   it("renders the description text", () => {
     render(<Hero />);
     expect(
-      screen.getByText(/We help e-commerce brands replace the chaos/i)
+      screen.getByText(/I help e-commerce brands replace the chaos/i)
     ).toBeInTheDocument();
   });
 

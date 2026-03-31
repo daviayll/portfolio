@@ -17,6 +17,6 @@ export const processSteps: ProcessStep[] = [
     number: "03",
     title: "Handoff — your team runs it, no developer needed",
     description:
-      "We hand your team the keys and make sure they can drive. Clear walkthroughs, straightforward documentation, and our number if something feels off. You own it — no retainer to keep it running.",
+      "Together we make sure your team can take it from here. Clear walkthroughs, straightforward documentation — you'll know exactly how it works and how to change it. You own it completely.",
   },
 ];
