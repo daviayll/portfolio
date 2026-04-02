@@ -8,22 +8,20 @@ const tools = [
     name: "n8n",
     logo: "/logos/n8n.svg",
     role: "Workflow automation",
-    description:
-      "Every automation is a visible, editable flow. No black box. Your team can see what runs, change it, and understand it without needing me.",
+    description: "Building and running automated workflows.",
   },
   {
-    name: "Claude",
+    name: "Claude & Claude Codework",
     logo: "/logos/anthropic.svg",
-    role: "AI",
+    role: "AI integration",
     description:
-      "For the parts that need judgment — extracting data from documents, drafting content, classifying inputs. AI where it actually helps, not everywhere.",
+      "AI integration and knowledge transfer to upgrade team productivity.",
   },
   {
-    name: "Puppeteer",
-    logo: "/logos/puppeteer.svg",
+    name: "Apify",
+    logo: "/logos/apify.svg",
     role: "Web scraping",
-    description:
-      "Automated data collection from any website. When the data you need isn't available via API, we go get it directly.",
+    description: "Scraping and collecting data from the web.",
   },
 ];
 
