@@ -37,20 +37,20 @@ describe("Hero", () => {
   it("renders the main headline", () => {
     render(<Hero />);
     expect(
-      screen.getByText(/Your e-commerce is growing/i)
+      screen.getByText(/Your business is growing/i)
     ).toBeInTheDocument();
   });
 
   it("renders the description text", () => {
     render(<Hero />);
     expect(
-      screen.getByText(/I help e-commerce brands replace the chaos/i)
+      screen.getByText(/I help growing businesses replace the chaos/i)
     ).toBeInTheDocument();
   });
 
   it("renders the label", () => {
     render(<Hero />);
-    expect(screen.getByText(/E-commerce automation/i)).toBeInTheDocument();
+    expect(screen.getByText(/Operations automation/i)).toBeInTheDocument();
   });
 
   it("renders the CTA link", () => {

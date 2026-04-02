@@ -11,7 +11,7 @@ export const processSteps: ProcessStep[] = [
     number: "02",
     title: "Custom Build — we build the system that fixes it",
     description:
-      "No templates. We design and build around your business, your products, your workflows. You see it working before you commit. It scales with you, it doesn't lock you in.",
+      "No templates. We design and build around your business, your products, your workflows. You see it working before you commit. Built with tools you can see and maintain — workflow automation, AI where it genuinely helps, connected to what you already use.",
   },
   {
     number: "03",

@@ -46,7 +46,7 @@ export default function Image() {
               lineHeight: 1.1,
             }}
           >
-            E-Commerce Automation.
+            Operations Automation.
           </div>
           <div
             style={{

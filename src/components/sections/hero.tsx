@@ -9,18 +9,18 @@ export function Hero() {
     <Section className="flex min-h-screen items-center pt-20">
       <Container className="flex flex-col items-center text-center">
         <FadeIn>
-          <Label>E-commerce automation</Label>
+          <Label>Operations automation</Label>
         </FadeIn>
         <FadeIn delay={0.1}>
           <Heading level="display" className="mt-6 max-w-3xl">
-            Your e-commerce is growing. Your operations aren&apos;t keeping up.
+            Your business is growing. Your operations aren&apos;t keeping up.
           </Heading>
         </FadeIn>
         <FadeIn delay={0.2}>
           <Text variant="muted" className="mt-6 max-w-xl">
-            I help e-commerce brands replace the chaos with automation that
+            I help growing businesses replace the chaos with automation that
             actually works. Backed by years inside one of Europe&apos;s largest
-            online retailers.
+            retailers.
           </Text>
         </FadeIn>
         <FadeIn delay={0.3}>

@@ -48,7 +48,7 @@ describe("jsonLd", () => {
     const graph = ld["@graph"] as Array<Record<string, unknown>>;
     const person = graph.find((item) => item["@type"] === "Person");
     expect(person).toBeDefined();
-    expect(person!.jobTitle).toBe("E-Commerce Automation Specialist");
+    expect(person!.jobTitle).toBe("Operations Automation Specialist");
   });
 
   it("includes a ProfessionalService entry", () => {
@@ -58,6 +58,6 @@ describe("jsonLd", () => {
       (item) => item["@type"] === "ProfessionalService"
     );
     expect(service).toBeDefined();
-    expect(service!.serviceType).toBe("E-Commerce Automation Consulting");
+    expect(service!.serviceType).toBe("Operations Automation Consulting");
   });
 });

@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Toni",
-  title: "Toni — E-Commerce Automation",
+  title: "Toni — Operations Automation",
   description:
-    "I help e-commerce brands replace operational chaos with automation that scales.",
+    "I help growing businesses replace operational chaos with automation that actually works.",
   url: "https://toni.dev",
 } as const;

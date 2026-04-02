@@ -11,7 +11,7 @@ test.describe("Homepage", () => {
 
   test("shows the hero headline", async ({ page }) => {
     await expect(
-      page.getByText(/Your e-commerce is growing/i)
+      page.getByText(/Your business is growing/i)
     ).toBeVisible();
   });
 
