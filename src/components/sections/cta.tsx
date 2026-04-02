@@ -18,7 +18,7 @@ export function CTA() {
           </Text>
           <div className="mt-8">
             <Button href="https://calendly.com/daviayllantoni/30min">
-              Book a free call
+              Book a discovery call
             </Button>
           </div>
         </FadeIn>
